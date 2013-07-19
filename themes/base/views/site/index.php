@@ -11,12 +11,12 @@
     </p>
 </div>
 <?php
- $message = new YiiMailMessage;
- $message->setBody('Message content here with HTML', 'text/html');
- $message->subject = 'My Subject';
- $message->addTo('daniel.mirecki@satel.pl');
- $message->from = Yii::app()->params['adminEmail'];
- Yii::app()->mail->send($message);
+// $message = new YiiMailMessage;
+// $message->setBody('Message content here with HTML', 'text/html');
+// $message->subject = 'My Subject';
+// $message->addTo('daniel.mirecki@satel.pl');
+// $message->from = Yii::app()->params['adminEmail'];
+// Yii::app()->mail->send($message);
 $rawData = array();
 $gridDataProvider = new CArrayDataProvider($rawData);
 // $gridColumns
